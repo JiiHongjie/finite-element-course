@@ -48,6 +48,8 @@ class QuadratureRule(object):
             weightsum+=function(self.points[i])*self.weights[i]
         return weightsum
 
+        # return function(self.points)*self.weights
+
 
         #raise NotImplementedError
 
